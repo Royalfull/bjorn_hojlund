@@ -1,7 +1,7 @@
 # BJØRN HØJLUND 🇩🇰
 ### Carrière fictive — Pro Cycling Manager 2025
 
-Bienvenue sur le site consacré à **Bjørn Højlund**, un coureur cycliste entièrement fictif, créé dans le cadre d'une carrière personnalisée en mode **Pro Cyclist sur Pro Cycling Manager 2025 (PCM 2025)**.
+Bienvenue sur le site consacré à **Bjørn Højlund**, un coureur cycliste fictif, créé dans le cadre d'une carrière personnalisée en mode **Pro Cyclist sur Pro Cycling Manager 2025 (PCM 2025)**.
 
 Ce projet retrace son évolution dans le monde du cyclisme professionnel, saison après saison, à travers ses résultats, ses équipes et ses statistiques.
 
