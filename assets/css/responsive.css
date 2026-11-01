@@ -1,0 +1,162 @@
+
+/* =========================================
+   RESPONSIVE — BJØRN HØJLUND
+   ========================================= */
+
+/* TABLETTES ET PETITS ORDINATEURS */
+
+@media (max-width: 1000px) {
+
+  .header-inner {
+    gap: var(--space-3);
+  }
+
+  .main-nav {
+    gap: 12px;
+  }
+
+  .main-nav a {
+    font-size: 0.68rem;
+  }
+
+  .hero {
+    min-height: 500px;
+  }
+
+  .content-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* TABLETTES */
+
+@media (max-width: 760px) {
+
+  :root {
+    --header-height: auto;
+  }
+
+  .site-header {
+    position: relative;
+    height: auto;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-block: var(--space-3);
+  }
+
+  .brand {
+    font-size: 1.6rem;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px 18px;
+    width: 100%;
+    padding-top: var(--space-2);
+  }
+
+  .main-nav a {
+    min-height: 32px;
+    font-size: 0.68rem;
+  }
+
+  .hero {
+    min-height: 440px;
+    background-position: 60% center;
+  }
+
+  .hero-content {
+    padding-block: 75px;
+  }
+
+  .profile-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    padding-block: var(--space-7);
+  }
+}
+
+/* SMARTPHONES */
+
+@media (max-width: 520px) {
+
+  .container {
+    width: min(calc(100% - 28px), var(--container-width));
+  }
+
+  .main-nav {
+    gap: 8px 14px;
+  }
+
+  .main-nav a {
+    font-size: 0.62rem;
+  }
+
+  .hero {
+    min-height: 390px;
+    background-position: 65% center;
+  }
+
+  .hero-content {
+    padding-block: 60px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.6rem, 13vw, 4rem);
+  }
+
+  .hero-subtitle {
+    font-size: var(--text-lg);
+  }
+
+  .profile-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
+
+  .stat-card {
+    padding: var(--space-4);
+  }
+
+  .stat-card strong {
+    font-size: var(--text-2xl);
+  }
+
+  .section {
+    padding-block: var(--space-6);
+  }
+
+  .results-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .results-table th,
+  .results-table td {
+    padding: 11px 12px;
+  }
+
+  .site-footer {
+    padding-inline: var(--space-3);
+  }
+}
