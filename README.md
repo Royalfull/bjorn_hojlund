@@ -15,7 +15,7 @@ Ce projet retrace son évolution dans le monde du cyclisme professionnel, saison
 |:--|:--|
 | Nom | Bjørn Højlund |
 | Nationalité | Danoise 🇩🇰 |
-| Date de naissance | 20 décembre 2007 |
+| Age | 18 ans (20 décembre 2007) |
 | Taille | 186 cm |
 | Poids | 74 kg |
 | Discipline | Cyclisme sur route |
