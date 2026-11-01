@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Suivez la carrière fictive de Bjørn Højlund sur Pro Cycling Manager 2025 : équipes, résultats et statistiques.">
+
+    <title>Bjørn Højlund | Carrière PCM 2025</title>
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <header id="site-header">
+        <div class="container">
+            <a href="#accueil" class="brand">BH.</a>
+
+            <nav class="main-nav" aria-label="Navigation principale">
+                <a href="#accueil">Accueil</a>
+                <a href="#profil">Profil</a>
+                <a href="#equipes">Équipes</a>
+                <a href="#resultats">Résultats</a>
+                <a href="#palmares">Palmarès</a>
+                <a href="#statistiques">Statistiques</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="accueil" class="hero">
+            <div class="container hero-content">
+                <p class="eyebrow">CARRIÈRE FICTIVE · PRO CYCLING MANAGER 2025</p>
+
+                <h1>BJØRN<br>HØJLUND</h1>
+
+                <p class="hero-subtitle">
+                    Coureur cycliste danois
+                </p>
+
+                <a href="#profil" class="button">
+                    Découvrir le coureur
+                </a>
+            </div>
+        </section>
+
+        <section id="profil" class="section container">
+            <p class="eyebrow">01 — LE COUREUR</p>
+            <h2>Profil du coureur</h2>
+
+            <div id="profile-content"></div>
+        </section>
+
+        <section id="equipes" class="section section-dark">
+            <div class="container">
+                <p class="eyebrow">02 — LES FORMATIONS</p>
+                <h2>Équipes</h2>
+
+                <div id="teams-content"></div>
+            </div>
+        </section>
+
+        <section id="resultats" class="section container">
+            <p class="eyebrow">03 — LA COMPÉTITION</p>
+            <h2>Résultats</h2>
+
+            <div id="results-content"></div>
+        </section>
+
+        <section id="palmares" class="section section-dark">
+            <div class="container">
+                <p class="eyebrow">04 — LES DISTINCTIONS</p>
+                <h2>Palmarès</h2>
+
+                <div id="palmares-content"></div>
+            </div>
+        </section>
+
+        <section id="statistiques" class="section container">
+            <p class="eyebrow">05 — LES CHIFFRES</p>
+            <h2>Statistiques de carrière</h2>
+
+            <div id="stats-content"></div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="current-year"></span> Bjørn Højlund</p>
+            <p>Carrière fictive réalisée sur Pro Cycling Manager 2025.</p>
+        </div>
+    </footer>
+
+    <script src="data/profil.js"></script>
+    <script src="data/equipes.js"></script>
+    <script src="data/palmares.js"></script>
+    <script src="data/saisons/saison-2026.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
