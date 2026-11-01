@@ -1,0 +1,85 @@
+/* =========================================
+   BASE — BJØRN HØJLUND
+   ========================================= */
+
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* TITRES */
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-primary-dark);
+    font-family: var(--font-heading);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.035em;
+}
+
+h1 {
+    font-size: clamp(2.8rem, 7vw, 5.5rem);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+/* TEXTES */
+
+p {
+    margin-bottom: 16px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* LIENS */
+
+a {
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--color-accent);
+}
+
+/* CONTENEURS */
+
+.container {
+    width: min(calc(100% - 40px), var(--container-width));
+    margin-inline: auto;
+}
+
+.section {
+    padding-block: var(--space-8);
+}
+
+/* TEXTES SECONDAIRES */
+
+.text-muted {
+    color: var(--color-text-muted);
+}
+
+.text-accent {
+    color: var(--color-accent);
+}
+
+/* SÉLECTION */
+
+::selection {
+    color: #ffffff;
+    background: var(--color-primary);
+}
